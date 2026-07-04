@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.env.local
+.env.production
+*.egg-info/
+.eggs/
+
+# Vercel
+.vercel/
+
+# Local data (SQLite fallback + JSONL logs)
+backend/data/
+
+# Node
+node_modules/
+dist/
+.npm/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Postman (eliminado del proyecto según requisito de limpieza)
+postman/
